@@ -1,0 +1,78 @@
+{
+  "n_rows": 2500,
+  "test_r2": 0.983054516152621,
+  "test_rmse": 3.9920810254431642,
+  "test_mae": 3.167494426333884,
+  "baseline_rmse": 30.67711945184065,
+  "price_mean": 71.0808,
+  "permutation_importance": [
+    {
+      "feature": "remainder__distance_km",
+      "drop_in_r2": 0.21174612092097506
+    },
+    {
+      "feature": "remainder__area_sqft",
+      "drop_in_r2": 0.19727606593999863
+    },
+    {
+      "feature": "cat__property_type_villa",
+      "drop_in_r2": 0.14699214227615387
+    },
+    {
+      "feature": "remainder__bedrooms",
+      "drop_in_r2": 0.14047759636333326
+    },
+    {
+      "feature": "cat__zone_Central",
+      "drop_in_r2": 0.07857132702518523
+    },
+    {
+      "feature": "remainder__bathrooms",
+      "drop_in_r2": 0.06880326984905585
+    },
+    {
+      "feature": "remainder__age_years",
+      "drop_in_r2": 0.02723317944949234
+    },
+    {
+      "feature": "cat__property_type_apartment",
+      "drop_in_r2": 0.019971456287988566
+    },
+    {
+      "feature": "remainder__has_parking",
+      "drop_in_r2": 0.0081019164664626
+    },
+    {
+      "feature": "cat__property_type_studio",
+      "drop_in_r2": 0.005166138921234231
+    },
+    {
+      "feature": "cat__property_type_independent_house",
+      "drop_in_r2": 0.0044282623878610485
+    },
+    {
+      "feature": "remainder__has_balcony_garden",
+      "drop_in_r2": 0.002766040148960014
+    },
+    {
+      "feature": "cat__zone_North",
+      "drop_in_r2": 0.0013201051783431118
+    },
+    {
+      "feature": "remainder__floor",
+      "drop_in_r2": 0.0009095979568234158
+    },
+    {
+      "feature": "cat__zone_East",
+      "drop_in_r2": 0.0007395768590686136
+    },
+    {
+      "feature": "cat__zone_South",
+      "drop_in_r2": 0.00020712621386810294
+    },
+    {
+      "feature": "cat__zone_West",
+      "drop_in_r2": 2.8801766770836235e-05
+    }
+  ]
+}
